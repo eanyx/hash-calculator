@@ -26,6 +26,8 @@ private slots:
 
     void on_filePushButton_clicked();
 
+    void on_sha1_radioButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -138,3 +138,10 @@ void MainWindow::on_comparePushButton_clicked()
     }
 }
 */
+
+void MainWindow::on_sha1_radioButton_clicked()
+{
+    algo = QCryptographicHash::Sha1;
+}
+
+

@@ -35,6 +35,7 @@ public:
     QPushButton *hashPushButton;
     QPushButton *comparePushButton;
     QPushButton *cancelButton;
+    QRadioButton *sha1_radioButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -42,42 +43,45 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(800, 600);
+        MainWindow->resize(1409, 652);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         md5_radioButton = new QRadioButton(centralwidget);
         md5_radioButton->setObjectName(QString::fromUtf8("md5_radioButton"));
-        md5_radioButton->setGeometry(QRect(120, 370, 110, 23));
+        md5_radioButton->setGeometry(QRect(50, 240, 110, 23));
         fileLineEdit = new QLineEdit(centralwidget);
         fileLineEdit->setObjectName(QString::fromUtf8("fileLineEdit"));
-        fileLineEdit->setGeometry(QRect(20, 80, 581, 31));
+        fileLineEdit->setGeometry(QRect(30, 20, 581, 31));
         hashResultLineEdit = new QLineEdit(centralwidget);
         hashResultLineEdit->setObjectName(QString::fromUtf8("hashResultLineEdit"));
-        hashResultLineEdit->setGeometry(QRect(-450, 130, 1061, 41));
+        hashResultLineEdit->setGeometry(QRect(30, 70, 1061, 41));
         verifyLineEdit = new QLineEdit(centralwidget);
         verifyLineEdit->setObjectName(QString::fromUtf8("verifyLineEdit"));
-        verifyLineEdit->setGeometry(QRect(220, 220, 1201, 25));
+        verifyLineEdit->setGeometry(QRect(36, 130, 1201, 25));
         progressBar = new QProgressBar(centralwidget);
         progressBar->setObjectName(QString::fromUtf8("progressBar"));
-        progressBar->setGeometry(QRect(250, 270, 1071, 25));
+        progressBar->setGeometry(QRect(40, 170, 1071, 25));
         progressBar->setMaximumSize(QSize(16777212, 16777212));
         progressBar->setValue(0);
         filePushButton = new QPushButton(centralwidget);
         filePushButton->setObjectName(QString::fromUtf8("filePushButton"));
-        filePushButton->setGeometry(QRect(600, 80, 161, 25));
+        filePushButton->setGeometry(QRect(628, 24, 161, 25));
         hashPushButton = new QPushButton(centralwidget);
         hashPushButton->setObjectName(QString::fromUtf8("hashPushButton"));
-        hashPushButton->setGeometry(QRect(660, 130, 111, 25));
+        hashPushButton->setGeometry(QRect(822, 23, 111, 25));
         comparePushButton = new QPushButton(centralwidget);
         comparePushButton->setObjectName(QString::fromUtf8("comparePushButton"));
-        comparePushButton->setGeometry(QRect(670, 170, 111, 25));
+        comparePushButton->setGeometry(QRect(949, 21, 111, 25));
         cancelButton = new QPushButton(centralwidget);
         cancelButton->setObjectName(QString::fromUtf8("cancelButton"));
-        cancelButton->setGeometry(QRect(690, 330, 89, 25));
+        cancelButton->setGeometry(QRect(1073, 20, 89, 25));
+        sha1_radioButton = new QRadioButton(centralwidget);
+        sha1_radioButton->setObjectName(QString::fromUtf8("sha1_radioButton"));
+        sha1_radioButton->setGeometry(QRect(60, 290, 110, 23));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 800, 23));
+        menubar->setGeometry(QRect(0, 0, 1409, 23));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -91,11 +95,12 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        md5_radioButton->setText(QCoreApplication::translate("MainWindow", "md5", nullptr));
+        md5_radioButton->setText(QCoreApplication::translate("MainWindow", "md5 (legacy)", nullptr));
         filePushButton->setText(QCoreApplication::translate("MainWindow", "Choose a file to hash", nullptr));
         hashPushButton->setText(QCoreApplication::translate("MainWindow", "Compute hash", nullptr));
         comparePushButton->setText(QCoreApplication::translate("MainWindow", "Compare hash", nullptr));
         cancelButton->setText(QCoreApplication::translate("MainWindow", "Cancel", nullptr));
+        sha1_radioButton->setText(QCoreApplication::translate("MainWindow", "sha1 (legacy)", nullptr));
     } // retranslateUi
 
 };
