@@ -1,10 +1,6 @@
 # hash-calculator
 
-Graphical Hash Calculator
-
-# Hash calculator
-
-Quick hash calculator with gui written in C++/Qt6
+Graphical Hash Calculator written in C++/Qt6
 
 - Support :
     - MD5 (Legacy)
