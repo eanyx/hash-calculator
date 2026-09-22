@@ -3,3 +3,5 @@ build
 *.o
 hash-calculator
 Makefile
+.qtcreator/
+.qtc_clangd/
