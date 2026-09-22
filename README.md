@@ -22,6 +22,8 @@ Quick hash calculator with gui written in C++/Qt6
 
 Compilation :
 
+git clone https://github.com/eanyx/hash-calculator
+
 For Linux:
 	
 	- Qt6 IDE
