@@ -1,3 +1,7 @@
 cat ubuntu-26.04.1-desktop-amd64.iso | openssl dgst -md5
 MD5(stdin)= 385c932aa24aa66da80ed9514d18cedc
 
+
+certutil -hashfile Win11_25H2_English_x64_v2.iso sha1
+Hachage SHA1 de Win11_25H2_English_x64_v2.iso :
+dff95e2d7bb100c151a50a3331e56e15dc2a15f9
