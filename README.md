@@ -2,19 +2,26 @@
 
 Graphical Hash Calculator written in C++/Qt6
 
+By eanyx (eanyx123@gmail.com)
+
+V 0.2 - 23 september 2026
+
 - Support :
     - MD5 (Legacy)
-    - SHA-1 (legacy)
-    - SHA-2 
-    - SHA-3
+    - SHA1 (legacy)
+    - SHA2 
+    - SHA3
     - Keccak-512
+
 - Support Linux, Windows and Mac OS X.
-    - Tested on Ubuntu 24.04 and 26.04
-    - Tested on Windows 10 and 11
+    - Tested on Ubuntu 20.04/22.04/24.04/26.04
+    - Tested on Windows 10/11 - Windows Server 2022
     - Tested on MacOS 27
+
 - Support 32 and 64 bits architectures
+
 - Compute hash of file up to 128 GB 
-    - See filesystem limits for some OS
+    - See limits (cpu, ram, filesystem) for some OS
 
 Compilation :
 
@@ -33,7 +40,7 @@ For Mac OS X:
 For Windows:
 	
 	- Qt6 IDE
-    - MinGW
+	- MinGW
 	
 Or command line build:
 
