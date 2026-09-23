@@ -115,67 +115,67 @@
      <string>Cancel</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>180</x>
       <y>215</y>
-      <width>76</width>
-      <height>112</height>
+      <width>82</width>
+      <height>119</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QRadioButton" name="sha224_radioButton">
        <property name="text">
-        <string>Sha224</string>
+        <string>SHA224</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QRadioButton" name="sha256_radioButton">
        <property name="text">
-        <string>Sha256</string>
+        <string>SHA256</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QRadioButton" name="sha384_radioButton">
        <property name="text">
-        <string>Sha384</string>
+        <string>SHA384</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QRadioButton" name="sha512_radioButton">
        <property name="text">
-        <string>Sha512</string>
+        <string>SHA512</string>
        </property>
       </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>50</x>
       <y>213</y>
-      <width>115</width>
-      <height>54</height>
+      <width>123</width>
+      <height>57</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
       <widget class="QRadioButton" name="md5_radioButton">
        <property name="text">
-        <string>Md5 (legacy)</string>
+        <string>MD5 (legacy)</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QRadioButton" name="sha1_radioButton">
        <property name="text">
-        <string>Sha1 (legacy)</string>
+        <string>SHA1 (legacy)</string>
        </property>
       </widget>
      </item>
@@ -188,7 +188,7 @@
      <x>0</x>
      <y>0</y>
      <width>1409</width>
-     <height>23</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

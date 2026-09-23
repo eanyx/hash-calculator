@@ -10,8 +10,10 @@ CHANGELOG for hash-calculator
     Code cleaning
     Code moved to Qt6
     Added basic functions (import from Qt5 version)
-    Added MD5 and SHA1 algorithms
 
 23 september 2026 - v 0.2 - by eanyx (eanyx123@gmail.com)
 
-    Add Keccak-512
+    Add MD5, SHA1, SHA224, SHA384, SHA512 algorithms
+        All tested as accurate with sha512sum for example on Linx
+        Or certutil on Windows
+    
