@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>240</y>
+      <y>210</y>
       <width>110</width>
       <height>23</height>
      </rect>
@@ -40,30 +40,30 @@
    <widget class="QLineEdit" name="hashResultLineEdit">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>70</y>
-      <width>1061</width>
-      <height>41</height>
+      <x>31</x>
+      <y>64</y>
+      <width>1201</width>
+      <height>31</height>
      </rect>
     </property>
    </widget>
    <widget class="QLineEdit" name="verifyLineEdit">
     <property name="geometry">
      <rect>
-      <x>36</x>
-      <y>130</y>
+      <x>32</x>
+      <y>106</y>
       <width>1201</width>
-      <height>25</height>
+      <height>31</height>
      </rect>
     </property>
    </widget>
    <widget class="QProgressBar" name="progressBar">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>170</y>
-      <width>1071</width>
-      <height>25</height>
+      <x>33</x>
+      <y>149</y>
+      <width>1201</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="maximumSize">
@@ -105,8 +105,8 @@
    <widget class="QPushButton" name="comparePushButton">
     <property name="geometry">
      <rect>
-      <x>949</x>
-      <y>21</y>
+      <x>1245</x>
+      <y>110</y>
       <width>111</width>
       <height>25</height>
      </rect>
@@ -118,8 +118,8 @@
    <widget class="QPushButton" name="cancelButton">
     <property name="geometry">
      <rect>
-      <x>1073</x>
-      <y>20</y>
+      <x>940</x>
+      <y>23</y>
       <width>89</width>
       <height>25</height>
      </rect>
@@ -131,14 +131,40 @@
    <widget class="QRadioButton" name="sha1_radioButton">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>290</y>
+      <x>50</x>
+      <y>240</y>
       <width>110</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
      <string>sha1 (legacy)</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="sha224_radioButton">
+    <property name="geometry">
+     <rect>
+      <x>178</x>
+      <y>215</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sha224</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="sha256_radioButton">
+    <property name="geometry">
+     <rect>
+      <x>179</x>
+      <y>242</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sha256</string>
     </property>
    </widget>
   </widget>

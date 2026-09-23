@@ -153,3 +153,16 @@ void MainWindow::on_sha1_radioButton_clicked()
 }
 
 
+
+void MainWindow::on_sha224_radioButton_clicked()
+{
+    algo = QCryptographicHash::Sha224;
+}
+
+
+void MainWindow::on_sha256_radioButton_clicked()
+{
+    algo = QCryptographicHash::Sha256;
+}
+
+

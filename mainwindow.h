@@ -28,6 +28,10 @@ private slots:
 
     void on_sha1_radioButton_clicked();
 
+    void on_sha224_radioButton_clicked();
+
+    void on_sha256_radioButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
