@@ -178,3 +178,39 @@ void MainWindow::on_sha512_radioButton_clicked()
     algo = QCryptographicHash::Sha512;
 }
 
+
+void MainWindow::on_sha3_224radioButton_clicked()
+{
+    algo = QCryptographicHash::Sha3_224;
+}
+
+
+
+void MainWindow::on_sha3_256_radioButton_clicked()
+{
+    algo = QCryptographicHash::Sha3_256;
+}
+
+
+
+
+void MainWindow::on_sha3_384_radioButton_clicked()
+{
+    algo = QCryptographicHash::Sha3_384;
+}
+
+
+
+
+void MainWindow::on_sha3_512_radioButton_clicked()
+{
+    algo = QCryptographicHash::Sha3_512;
+}
+
+
+
+void MainWindow::on_keccak_512_radioButton_clicked()
+{
+    algo = QCryptographicHash::Keccak_512;
+}
+

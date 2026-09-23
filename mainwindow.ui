@@ -181,6 +181,59 @@
      </item>
     </layout>
    </widget>
+   <widget class="QRadioButton" name="keccak_512_radioButton">
+    <property name="geometry">
+     <rect>
+      <x>389</x>
+      <y>225</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Keccak-512</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>220</y>
+      <width>96</width>
+      <height>119</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QRadioButton" name="sha3_224radioButton">
+       <property name="text">
+        <string>SHA3-224</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="sha3_256_radioButton">
+       <property name="text">
+        <string>SHA3-256</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="sha3_384_radioButton">
+       <property name="text">
+        <string>SHA3-384</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="sha3_512_radioButton">
+       <property name="text">
+        <string>SHA3-512</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
