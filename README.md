@@ -16,7 +16,7 @@ V 0.2 - 23 september 2026
 - Support Linux, Windows and Mac OS X.
     - Tested on Ubuntu 20.04/22.04/24.04/26.04
     - Tested on Windows 10/11
-    - Windows Server 2022
+    - Tested on Windows Server 2022
     - Tested on MacOS 27
 
 - Support 32 and 64 bits architectures
