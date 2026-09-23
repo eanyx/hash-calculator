@@ -35,7 +35,7 @@ For Windows:
 	- Qt6 IDE
     - MinGW
 	
-Build:
+Or command line build:
 
 	qmake
 	make
