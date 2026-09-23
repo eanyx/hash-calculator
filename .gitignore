@@ -1,8 +1,11 @@
+build/*
 build/
 build
 *.o
 hash-calculator
 Makefile
+.qtcreator/*
 .qtcreator/
+.qtcreator
 .qtc_clangd/
 .qmake.stash
