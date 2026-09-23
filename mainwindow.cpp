@@ -6,12 +6,20 @@
 #include <QProgressBar>
 #include <QtMath>
 
-/* eanyx - 9 may 2023 - v 0.1 change to support full file name on Linux and Windows
- * eanyx - 7 sept 2024 - Remove computation on empty file
-* eanyx - 5 sept 2026 - To do : Add keccak and blake2b
-* eanyx - 6  sept 2026 - To do : Add hmac, gpg signature
-* eanyx - 21 sept 2026 - v 0.2 - to be improved : SHA512 and SHA3-384 have error in computing hash
-*                              - added keccak512 hash
+/* eanyx - 21 sept 2026  - v 0.1 
+    - Draft    
+    - change to support full file name on Linux and Windows
+    - Remove computation on empty file
+
+   eanyx - 22 sept 2026 - v 0.1a 
+    - Add .gitignore rules
+    - Code cleaning
+    - Code moved to Qt6
+    - Added basic functions (import from Qt5 version)
+    - Added MD5 and SHA1 algorithms
+   
+   eanyx 23 sept 2026 - v 0.2   
+   - Add keccak-512
 */
 
 
