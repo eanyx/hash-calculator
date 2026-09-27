@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[11];
-    char stringdata0[263];
+    QByteArrayData data[17];
+    char stringdata0[453];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -42,7 +42,13 @@ QT_MOC_LITERAL(6, 115, 27), // "on_sha1_radioButton_clicked"
 QT_MOC_LITERAL(7, 143, 29), // "on_sha224_radioButton_clicked"
 QT_MOC_LITERAL(8, 173, 29), // "on_sha256_radioButton_clicked"
 QT_MOC_LITERAL(9, 203, 29), // "on_sha384_radioButton_clicked"
-QT_MOC_LITERAL(10, 233, 29) // "on_sha512_radioButton_clicked"
+QT_MOC_LITERAL(10, 233, 29), // "on_sha512_radioButton_clicked"
+QT_MOC_LITERAL(11, 263, 30), // "on_sha3_224radioButton_clicked"
+QT_MOC_LITERAL(12, 294, 31), // "on_sha3_256_radioButton_clicked"
+QT_MOC_LITERAL(13, 326, 31), // "on_sha3_384_radioButton_clicked"
+QT_MOC_LITERAL(14, 358, 31), // "on_sha3_512_radioButton_clicked"
+QT_MOC_LITERAL(15, 390, 33), // "on_keccak_512_radioButton_cli..."
+QT_MOC_LITERAL(16, 424, 28) // "on_comparePushButton_clicked"
 
     },
     "MainWindow\0on_md5_radioButton_clicked\0"
@@ -53,7 +59,13 @@ QT_MOC_LITERAL(10, 233, 29) // "on_sha512_radioButton_clicked"
     "on_sha224_radioButton_clicked\0"
     "on_sha256_radioButton_clicked\0"
     "on_sha384_radioButton_clicked\0"
-    "on_sha512_radioButton_clicked"
+    "on_sha512_radioButton_clicked\0"
+    "on_sha3_224radioButton_clicked\0"
+    "on_sha3_256_radioButton_clicked\0"
+    "on_sha3_384_radioButton_clicked\0"
+    "on_sha3_512_radioButton_clicked\0"
+    "on_keccak_512_radioButton_clicked\0"
+    "on_comparePushButton_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -63,7 +75,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       9,   14, // methods
+      15,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -71,17 +83,29 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   59,    2, 0x08 /* Private */,
-       3,    0,   60,    2, 0x08 /* Private */,
-       4,    0,   61,    2, 0x08 /* Private */,
-       5,    0,   62,    2, 0x08 /* Private */,
-       6,    0,   63,    2, 0x08 /* Private */,
-       7,    0,   64,    2, 0x08 /* Private */,
-       8,    0,   65,    2, 0x08 /* Private */,
-       9,    0,   66,    2, 0x08 /* Private */,
-      10,    0,   67,    2, 0x08 /* Private */,
+       1,    0,   89,    2, 0x08 /* Private */,
+       3,    0,   90,    2, 0x08 /* Private */,
+       4,    0,   91,    2, 0x08 /* Private */,
+       5,    0,   92,    2, 0x08 /* Private */,
+       6,    0,   93,    2, 0x08 /* Private */,
+       7,    0,   94,    2, 0x08 /* Private */,
+       8,    0,   95,    2, 0x08 /* Private */,
+       9,    0,   96,    2, 0x08 /* Private */,
+      10,    0,   97,    2, 0x08 /* Private */,
+      11,    0,   98,    2, 0x08 /* Private */,
+      12,    0,   99,    2, 0x08 /* Private */,
+      13,    0,  100,    2, 0x08 /* Private */,
+      14,    0,  101,    2, 0x08 /* Private */,
+      15,    0,  102,    2, 0x08 /* Private */,
+      16,    0,  103,    2, 0x08 /* Private */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -110,6 +134,12 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 6: _t->on_sha256_radioButton_clicked(); break;
         case 7: _t->on_sha384_radioButton_clicked(); break;
         case 8: _t->on_sha512_radioButton_clicked(); break;
+        case 9: _t->on_sha3_224radioButton_clicked(); break;
+        case 10: _t->on_sha3_256_radioButton_clicked(); break;
+        case 11: _t->on_sha3_384_radioButton_clicked(); break;
+        case 12: _t->on_sha3_512_radioButton_clicked(); break;
+        case 13: _t->on_keccak_512_radioButton_clicked(); break;
+        case 14: _t->on_comparePushButton_clicked(); break;
         default: ;
         }
     }
@@ -145,13 +175,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 9)
+        if (_id < 15)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 9;
+        _id -= 15;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 9)
+        if (_id < 15)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 9;
+        _id -= 15;
     }
     return _id;
 }

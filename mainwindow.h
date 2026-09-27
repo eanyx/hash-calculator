@@ -46,6 +46,8 @@ private slots:
 
     void on_keccak_512_radioButton_clicked();
 
+    void on_comparePushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

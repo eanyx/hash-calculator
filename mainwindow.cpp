@@ -55,7 +55,9 @@ void MainWindow::on_filePushButton_clicked()
 #elif defined(Q_WS_X11) || defined(Q_OS_LINUX)
     fileName = QFileDialog::getOpenFileName(this,
                                             tr("Open file to hash"), "/", tr("All Files (*)"));
-
+#elif defined(Q_OS_HAIKU)
+    fileName = QFileDialog::getOpenFileName(this,
+                                            tr("Open file to hash"), "/", tr("All Files (*)"));
 #endif
     this->ui->fileLineEdit->setText(fileName);
 }
@@ -212,5 +214,26 @@ void MainWindow::on_sha3_512_radioButton_clicked()
 void MainWindow::on_keccak_512_radioButton_clicked()
 {
     algo = QCryptographicHash::Keccak_512;
+}
+
+
+void MainWindow::on_comparePushButton_clicked()
+{
+    QString verify = "";
+    verify = this->ui->verifyLineEdit->text().toUpper();
+
+    this->ui->verifyLineEdit->setText(verify);
+
+
+    if (verify == fileChecksum)
+    {
+        this->ui->verifyLineEdit->setText("<font color=\"#2E821A\">Verify OK</font>");
+        this->ui->verifyLineEdit->show();
+    }
+    else
+    {
+        this->ui->verifyLineEdit->setText("<font color=\"#FF0000\">Verify not OK</font>");
+        this->ui->verifyLineEdit->show();
+    }
 }
 
