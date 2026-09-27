@@ -16,3 +16,6 @@ CHANGELOG for hash-calculator
     - Add MD5, SHA1, SHA224, SHA384, SHA512 algorithms
     - All tested as accurate with sha512sum for example on Linux or certutil on Windows
     
+27 september 2026 - v 0.2a - by eanyx (eanyx123@gmail.com)
+    
+    - Add support for Haiku OS

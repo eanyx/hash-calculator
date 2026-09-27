@@ -194,7 +194,7 @@
      <string>Keccak-512</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>280</x>

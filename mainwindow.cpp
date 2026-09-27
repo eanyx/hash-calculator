@@ -20,6 +20,9 @@
    
    eanyx 23 sept 2026 - v 0.2   
    - Add keccak-512
+
+   eanyx 27 sept 2026 - v 0.2a
+   - ADd support for Haiku OS
 */
 
 
