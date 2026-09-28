@@ -6,27 +6,6 @@
 #include <QProgressBar>
 #include <QtMath>
 
-/* eanyx - 21 sept 2026  - v 0.1 
-    - Draft    
-    - change to support full file name on Linux and Windows
-    - Remove computation on empty file
-
-   eanyx - 22 sept 2026 - v 0.1a 
-    - Add .gitignore rules
-    - Code cleaning
-    - Code moved to Qt6
-    - Added basic functions (import from Qt5 version)
-    - Added MD5 and SHA1 algorithms
-   
-   eanyx 23 sept 2026 - v 0.2   
-   - Add keccak-512
-
-   eanyx 27 sept 2026 - v 0.2a
-   - Add support for Haiku OS
-*/
-
-
-
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
