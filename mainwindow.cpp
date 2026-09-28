@@ -22,7 +22,7 @@
    - Add keccak-512
 
    eanyx 27 sept 2026 - v 0.2a
-   - ADd support for Haiku OS
+   - Add support for Haiku OS
 */
 
 
@@ -58,7 +58,7 @@ void MainWindow::on_filePushButton_clicked()
 #elif defined(Q_WS_X11) || defined(Q_OS_LINUX)
     fileName = QFileDialog::getOpenFileName(this,
                                             tr("Open file to hash"), "/", tr("All Files (*)"));
-#elif defined(Q_OS_HAIKU)
+#elif defined(Q_WS_HAIKU) || defined (Q_OS_HAIKU)
     fileName = QFileDialog::getOpenFileName(this,
                                             tr("Open file to hash"), "/", tr("All Files (*)"));
 #endif

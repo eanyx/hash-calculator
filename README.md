@@ -1,10 +1,8 @@
 # hash-calculator
 
-Graphical Hash Calculator written in C++/Qt6
+Graphical Hash Calculator written in C++/Qt5
 
 By eanyx (eanyx123@gmail.com)
-
-V 0.2 - 23 september 2026
 
 - Support :
     - MD5 (Legacy)
@@ -30,17 +28,17 @@ git clone https://github.com/eanyx/hash-calculator
 
 For Linux:
 	
-	- Qt6 IDE
+	- Qt 5.15 IDE
 	- gcc/g++ compilers
 
 For Mac OS X:
 	
-	- Qt6 IDE
+	- Qt 5.15 IDE
 	- X Code compiler
 
 For Windows:
 	
-	- Qt6 IDE
+	- Qt 5.15 IDE
 	- MinGW
 	
 Or command line build:
