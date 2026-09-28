@@ -23,3 +23,4 @@ CHANGELOG for hash-calculator
 28 september 2026 - v 0.2b - by enayx (eanyx123@gmail.com)
 
     - Changed Qt version from 6 to 5.15
+    - Revised wiki
